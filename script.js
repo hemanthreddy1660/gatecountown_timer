@@ -2,7 +2,7 @@ const days_el = document.getElementById('days');
 const hours_el = document.getElementById('hours');
 const mins_el = document.getElementById('minutes');
 const sec_el = document.getElementById('seconds');
-const newyear = "1 Feb 2025";
+const newyear = "15 Feb 2025";
 function countdown(){
     const newyeardate = new Date(newyear);
     const currentdate = new Date();
